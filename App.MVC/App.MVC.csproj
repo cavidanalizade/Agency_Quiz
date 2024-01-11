@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\Manage\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Manage\.vs\darkpan-1.0.0\FileContentIndex\merges\" />
+    <Folder Include="wwwroot\Manage\.vs\darkpan-1.0.0\v17\" />
+    <Folder Include="wwwroot\Upload\Project\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Manage\.vs\darkpan-1.0.0\FileContentIndex\bd9b161b-96d1-4d25-b04e-4673d6e5bcbb.vsidx" />
+    <None Include="wwwroot\Manage\.vs\darkpan-1.0.0\FileContentIndex\read.lock" />
+    <None Include="wwwroot\Manage\.vs\slnx.sqlite" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.26" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.26" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.26">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Business\App.Business.csproj" />
+  </ItemGroup>
+
+</Project>
